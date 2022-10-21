@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 50px 0;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    line-height: 0.8;
+    color: #E26454;
+}
+p {
+    width: 70%;
+    color: #8E8E8E;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.svg-container {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -12px;
+    left: -13px;
+    width: 45px;
+    height: 45px;
+    border: 4px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first-circle {
+    border-color: #86d3db;
+    color: #86d3db;
+}
+.second-circle {
+    border-color: #4074BD;
+    color: #4074BD;
+}
+.third-circle {
+    border-color: #E05E46;
+    color: #E05E46;
+}
+.forth-circle {
+    border-color: #919191;
+    color: #919191;
+}
+
+.first-svg {
+    background-color: #86d3db;
+}
+.second-svg {
+    background-color: #4074BD;
+}
+.third-svg {
+    background-color: #E05E46;
+}
+.forth-svg {
+    background-color: #919191;
+}
+
+svg {
+    color: #fff;
+}
